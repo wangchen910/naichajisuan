@@ -101,17 +101,17 @@
 
       async function openWeapp(onBeforeJump) {
         var c = window.c
-        const res = await c.callFunction({
-          name: 'public',
-          data: {
-            action: 'getUrlScheme',
-          },
-        })
-        console.warn(res)
-        if (onBeforeJump) {
-          onBeforeJump()
-        }
-        location.href = res.result.openlink
+        // const res = await c.callFunction({
+        //   name: 'public',
+        //   data: {
+        //     action: 'getUrlScheme',
+        //   },
+        // })
+        // console.warn(res)
+        // if (onBeforeJump) {
+        //   onBeforeJump()
+        // }
+        location.href = "weixin://dl/business/?t=QYDjR3O1x6e"
       }
     </script>
     <style>
