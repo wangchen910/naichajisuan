@@ -56,8 +56,8 @@
           })
 
           wx.config({
-            // debug: true, // 调试时可开启
-            appId: 'wx1c4e19e5871a548c', // <!-- replace -->
+            debug: true, // 调试时可开启
+            appId: 'wx6417e0a22d6b2d3a', // <!-- replace -->
             timestamp: 0, // 必填，填任意数字即可
             nonceStr: 'nonceStr', // 必填，填任意非空字符串即可
             signature: 'signature', // 必填，填任意非空字符串即可
@@ -77,7 +77,7 @@
             // 必填，表示是未登录模式
             identityless: true,
             // 资源方 AppID
-            resourceAppid: 'wx1c4e19e5871a548c', // <!-- replace -->
+            resourceAppid: 'wx6417e0a22d6b2d3a', // <!-- replace -->
             // 资源方环境 ID
             resourceEnv: '', // <!-- replace -->
           })
@@ -179,16 +179,16 @@
   <body>
     <div class="page full">
       <div id="public-web-container" class="hidden">
-        <p class="">正在打开 “apiChina”...</p> <!-- replace -->
+        <p class="">正在打开 “制药家线上学习平台”...</p> <!-- replace -->
         <a id="public-web-jump-button" href="javascript:" class="weui-btn weui-btn_primary weui-btn_loading" onclick="openWeapp()">
           <span id="public-web-jump-button-loading" class="weui-primary-loading weui-primary-loading_transparent"><i class="weui-primary-loading__dot"></i></span>
           打开小程序
         </a>
       </div>
       <div id="wechat-web-container" class="hidden">
-        <p class="">点击以下按钮打开 “apiChina1”</p> <!-- replace -->
+        <p class="">点击以下按钮打开 “制药家线上学习平台”</p> <!-- replace -->
         <!-- 跳转小程序的开放标签。文档 https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/Wechat_Open_Tag.html -->
-        <wx-open-launch-weapp id="launch-btn" username="gh_046385902e89" path="pages/home/home.html"> <!-- replace -->
+        <wx-open-launch-weapp id="launch-btn" username="gh_4fdbb69c789b" path=""> <!-- replace -->
           <template>
             <button style="width: 200px; height: 45px; text-align: center; font-size: 17px; display: block; margin: 0 auto; padding: 8px 24px; border: none; border-radius: 4px; background-color: #07c160; color:#fff;">打开小程序</button>
           </template>
